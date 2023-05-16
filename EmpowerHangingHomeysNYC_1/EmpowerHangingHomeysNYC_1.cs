@@ -69,6 +69,7 @@ namespace EmpowerHangingHomeysNYC_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation(text: "Goodbye Cruel World, ending it now, or not");
+			eng
 		}
 	}
 }
