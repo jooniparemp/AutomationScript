@@ -36,3 +36,5 @@ jobs:
     # The chosen name of the artifact. E.g. MyPackageName.  Required for stages: All, Upload and Deploy.
     artifact-name: # ThatOneIn
     # The version number for the artifact. Only required for a release run. (format A.B.C). E.g. 1.0.1. Required for stages Upload and All if no build number was provided instead.
+    version: 1.0.0
+    build-number: ${{ github.run_number }}
