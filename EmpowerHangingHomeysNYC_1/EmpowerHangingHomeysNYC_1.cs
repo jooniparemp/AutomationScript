@@ -68,7 +68,7 @@ namespace EmpowerHangingHomeysNYC_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
-			engine.GenerateInformation("Goodbye Cruel World");
+			engine.GenerateInformation(text: "Goodbye Cruel World, ending it now");
 		}
 	}
 }
